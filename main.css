@@ -8,13 +8,10 @@ background-color: #F7F4E3;
 }
 
 .gradient {
-background: radial-gradient(#389168);
+background-image: radial-gradient(#389168,#F7F4E3);
 }
 
-img {float: left;
-    margin-left: 1px;
-    margin-top: 5px;
-  }
+
 
 h1 {
   font-style: italic;
@@ -29,25 +26,29 @@ button {
   background-color: #D2E1C8}
 
 input {
-  margin-top: 250px;
+  margin-top: 220px;
 text-align-last: center;
 spacing: 0px;
   }
 
-.blockinputsection {
-margin: 50px 0px 80px 0px;
-width: 800px;
+.horisontell {
+display: flex;
+flex-direction: row
+
+}
+.vertikal
+{display:flex;
+  flex-direction: column;
 }
 
 .inputs{
   width: inherit;
   display: flex;
-  flex-direction: row;}
-
-.inputtext {
-  display: flex;
   flex-direction: row;
+  margin: 50px 0px 80px 0px;
+  width: 800px;
 }
+
 
 .addOption {
   margin-top: 10px;
