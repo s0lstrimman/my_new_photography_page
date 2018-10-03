@@ -4,12 +4,11 @@ flex-direction: column;
 justify-content: flex-start;
 align-items: center;
 margin-top: 150px;
-background-color: #EBBA91;
+background-color: #F7F4E3;
 }
 
 .gradient {
-background-image: radial-gradient(#EBBB91);
-
+background: radial-gradient(#389168);
 }
 
 img {float: left;
@@ -19,15 +18,20 @@ img {float: left;
 
 h1 {
   font-style: italic;
-  color: lightblue;
+  color: #389168;
   letter-spacing: 2px}
 
+h3 {float: left;
+  color: #389168;
+}
+
 button {
-  background-color: lightblue}
+  background-color: #D2E1C8}
 
 input {
   margin-top: 250px;
-text-align-last:center;
+text-align-last: center;
+spacing: 0px;
   }
 
 .blockinputsection {
@@ -42,7 +46,10 @@ width: 800px;
 
 .inputtext {
   display: flex;
-  flex-direction: row;}
+  flex-direction: row;
+}
 
 .addOption {
-  margin-top: 10px}
+  margin-top: 10px;
+margin-bottom:10px;
+}
